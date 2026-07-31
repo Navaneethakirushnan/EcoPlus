@@ -10,6 +10,31 @@
         <a href="contact.html">Contact</a>
         </nav>
         <body>
-            
+            <div class="calculator">
+                <label for="electricity">Electricity Usage (kWh/month):</label>
+<input type="number" id="electricity" required><br><br>
+
+<label for="vehicle">Vehicle Travel (km/week):</label>
+<input type="number" id="vehicle" required><br><br>
+
+<label for="lpg">LPG Cylinders Used (per month):</label>
+<input type="number" id="lpg" required><br><br>
+
+<label for="transport">Public Transport (km/week):</label>
+<input type="number" id="transport" required><br><br>
+
+<button type="button">Calculate</button><br><br>
+
+
+            </div>
+            <div class="result">
+                <div id="result-box">
+    <h2>Estimated Carbon Footprint</h2>
+
+    <p id="result">Your result will appear here.</p>
+
+    <p id="message"></p>
+</div>
+            </div>
         </body>
 </html>
