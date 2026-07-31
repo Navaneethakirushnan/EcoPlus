@@ -2,7 +2,11 @@
     <head>
         <title>Carbon Calculator</title>
         <link rel="stylesheet" href="style.css">
-    </head>
+        <link rel="stylesheet" href="responsive.css">
+        </head>
+        <body>
+        
+    
    <div class="calc">
     <nav>
     
@@ -12,7 +16,7 @@
         <a href="contact.html">Contact</a>
         </nav>
         </div>
-        <body>
+        
             <div class="calculator">
                 <label for="electricity">Electricity Usage (kWh/month):</label>
 <input type="number" id="electricity" required><br><br>
@@ -26,7 +30,9 @@
 <label for="transport">Public Transport (km/week):</label>
 <input type="number" id="transport" required><br><br>
 
-<button type="button">Calculate</button><br><br>
+<button type="button" onclick="calculateFootprint()">
+    Calculate
+</button><br><br>
 
 
             </div>
@@ -38,6 +44,8 @@
 
     <p id="message"></p>
 </div>
-       </div>     
+       </div>  
+<script src="main.js"></script>
+<script src="calculator.js"></script>
         </body>
 </html>
