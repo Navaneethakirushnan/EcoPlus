@@ -59,3 +59,20 @@
     text-align: center;
     border: black 1px solid;
 }
+.tipss{
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+}
+.tips-header{
+    background-color: #e5e5e5;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+.tipfooter{
+    background-color: #d5d5d5;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
