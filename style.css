@@ -76,3 +76,26 @@
     padding: 20px;
     text-align: center;
 }
+.calc{
+    background-color: #c5c5c5;
+    padding: 20px;
+    text-align: center;
+}
+.calculator{
+    background-color: #b5b5b5;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+.result{
+    background-color: #a5a5a5;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+.result-box{
+    background-color: #959595;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
