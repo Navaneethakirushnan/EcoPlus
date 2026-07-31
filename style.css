@@ -1,0 +1,41 @@
+.header{
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.links{
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+}
+.mission{
+    background-color: #e0e0e0;
+    padding: 20px;
+    text-align: center;
+}
+.pledge{
+    background-color: #d0d0d0;
+    padding: 20px;
+    text-align: center;
+}
+.facts{
+    background-color: #c0c0c0;
+    padding: 20px;
+    text-align: center;
+}
+.service{
+    background-color: #b0b0b0;
+    padding: 20px;
+    text-align: center;
+}
+.end{
+    background-color: #a0a0a0;
+    padding: 20px;
+    text-align: center;
+}
+.over{
+    background-color: #909090;
+    padding: 20px;
+    text-align: center;
+}
