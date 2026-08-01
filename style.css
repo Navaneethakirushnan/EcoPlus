@@ -1,101 +1,197 @@
+
+body{
+    margin:0;
+    padding:0;
+    font-family: Arial, sans-serif;
+    background-color:#eef7ee;
+    color:#333;
+}
+
+
+nav{
+    background-color:#2E7D32;
+    padding:15px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 18px;
+    font-size:18px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#C8E6C9;
+}
+
+
 .header{
-    background-color: #4CAF50;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                url("images Ecoplus.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
     color: white;
-    padding: 20px;
     text-align: center;
+    padding: 50px 20px;
 }
-.links{
-    background-color: #f0f0f0;
-    padding: 10px;
-    text-align: center;
+.header h1{
+    font-size:48px;
+    margin-bottom:10px;
 }
-.mission{
-    background-color: #e0e0e0;
-    padding: 20px;
-    text-align: center;
+
+.header p{
+    font-size:22px;
 }
-.pledge{
-    background-color: #d0d0d0;
-    padding: 20px;
-    text-align: center;
-}
-.facts{
-    background-color: #c0c0c0;
-    padding: 20px;
-    text-align: center;
-}
-.service{
-    background-color: #b0b0b0;
-    padding: 20px;
-    text-align: center;
-}
-.end{
-    background-color: #a0a0a0;
-    padding: 20px;
-    text-align: center;
-}
-.over{
-    background-color: #909090;
-    padding: 20px;
-    text-align: center;
-}
-.hello{
-    background-color: paleturquoise ;
-    padding: 20px;
-    text-align: center;
-    border:green
-}
-.form-group{
-    margin-bottom: 15px;
-    padding: 20px;
-    text-align: center;
-    border:green 1px solid;
-    background-color: bisque;
-}
-.contact-header{
-    background-color: #808080;
-    color: white;
-    padding: 20px;
-    text-align: center;
-    border: black 1px solid;
-}
-.tipss{
-    background-color: #f5f5f5;
-    padding: 20px;
-    text-align: center;
-}
+
+
+
+.links,
+.mission,
+.pledge,
+.facts,
+.service,
+.end,
+.over,
+.hello,
+.tipss,
+.calculator,
+.result,
+.contact-header,
+.tipfooter,
 .tips-header{
-    background-color: #e5e5e5;
-    color: black;
-    padding: 20px;
-    text-align: center;
+
+    width:85%;
+    margin:25px auto;
+    background:white;
+    border-radius:12px;
+    padding:25px;
+
+    box-shadow:0 4px 12px rgba(0,0,0,0.15);
 }
-.tipfooter{
-    background-color: #d5d5d5;
-    color: black;
-    padding: 20px;
-    text-align: center;
+
+
+
+h2{
+    color:#2E7D32;
 }
-.calc{
-    background-color: #c5c5c5;
-    padding: 20px;
-    text-align: center;
+
+
+ul{
+    text-align:left;
+    line-height:1.8;
 }
+
+
+
+.form-group{
+
+    width:80%;
+    margin:auto;
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:10px;
+
+    box-shadow:0 4px 12px rgba(0,0,0,0.15);
+
+}
+
+input,
+textarea,
+select{
+
+    width:95%;
+
+    padding:10px;
+
+    margin-top:8px;
+    margin-bottom:15px;
+
+    border:1px solid #ccc;
+
+    border-radius:6px;
+
+    font-size:16px;
+
+}
+
+button,
+input[type="submit"]{
+
+    background:#4CAF50;
+
+    color:white;
+
+    border:none;
+
+    padding:12px 25px;
+
+    border-radius:6px;
+
+    font-size:16px;
+
+    cursor:pointer;
+
+    transition:0.3s;
+
+}
+
+button:hover,
+input[type="submit"]:hover{
+
+    background:#2E7D32;
+
+}
+
+
 .calculator{
-    background-color: #b5b5b5;
-    color: black;
-    padding: 20px;
-    text-align: center;
+
+    width:70%;
+
+    margin:auto;
+
 }
+
 .result{
-    background-color: #a5a5a5;
-    color: black;
-    padding: 20px;
-    text-align: center;
+
+    width:70%;
+
+    margin:25px auto;
+
 }
-.result-box{
-    background-color: #959595;
-    color: black;
-    padding: 20px;
-    text-align: center;
+
+#result-box{
+
+    background:#F8FFF8;
+
+    border-left:6px solid #4CAF50;
+
+    border-radius:8px;
+
+    padding:20px;
+
+}
+
+
+
+footer{
+
+    background:#2E7D32;
+
+    color:white;
+
+    text-align:center;
+
+    padding:20px;
+
+    margin-top:30px;
+
 }
